@@ -1,0 +1,25 @@
+<com.lide.event.defineView.SlidingMenu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/menu_bg"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/menu" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@mipmap/qq" >
+
+            <!-- 主页面 fragment -->
+        </LinearLayout>
+    </LinearLayout>
+
+</com.lide.event.defineView.SlidingMenu>
